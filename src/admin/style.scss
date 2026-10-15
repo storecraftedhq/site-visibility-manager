@@ -1,0 +1,117 @@
+/* Settings are saved via REST — hide the classic WC Settings form Save button. */
+.woocommerce_page_wc-settings:has(#svm-settings-root) p.submit {
+	display: none;
+}
+
+.svm-settings {
+	max-width: 720px;
+	margin: 0 0 48px;
+}
+
+.svm-settings__header {
+	margin-bottom: 24px;
+}
+
+.svm-settings__header h1 {
+	margin: 0 0 8px;
+	font-size: 23px;
+	font-weight: 400;
+	line-height: 1.3;
+}
+
+.svm-settings__intro {
+	margin: 0;
+	color: #646970;
+	font-size: 13px;
+	line-height: 1.5;
+}
+
+.svm-settings__section {
+	margin: 0 0 28px;
+	padding: 0 0 8px;
+	border-bottom: 1px solid #dcdcde;
+}
+
+.svm-settings__section:last-of-type {
+	border-bottom: none;
+}
+
+.svm-settings__section-title {
+	margin: 0 0 4px;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.svm-settings__section-help {
+	margin: 0 0 12px;
+	color: #646970;
+	font-size: 13px;
+	line-height: 1.5;
+}
+
+.svm-settings__checklist {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	margin-bottom: 12px;
+}
+
+.svm-settings__checklist .components-base-control {
+	margin-bottom: 0;
+}
+
+.svm-settings__checklist .components-checkbox-control__label {
+	font-size: 13px;
+}
+
+.svm-settings__status {
+	margin-bottom: 20px;
+}
+
+.svm-settings__status-actions {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+	margin-top: 12px;
+}
+
+.svm-settings__entity-picker {
+	position: relative;
+	max-width: 520px;
+}
+
+.svm-settings__entity-picker .components-form-token-field__input-container {
+	background: #fff;
+	border-color: #8c8f94;
+	box-shadow: none;
+}
+
+.svm-settings__entity-picker
+	.components-form-token-field__input-container.is-active {
+	border-color: #2271b1;
+	box-shadow: 0 0 0 1px #2271b1;
+}
+
+.svm-settings__entity-picker .components-form-token-field__token {
+	background: #f0f0f1;
+}
+
+.svm-settings__spinner {
+	display: inline-flex;
+	margin-top: 8px;
+}
+
+.svm-settings__actions {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	margin-top: 8px;
+}
+
+.svm-settings__loading {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	padding: 48px 0;
+	color: #646970;
+}

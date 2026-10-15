@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<ruleset name="Site Visibility Manager For WooCommerce">
+	<description>PHPCS using WordPress Coding Standards (StoreCrafted PSR-4 plugin)</description>
+
+	<config name="minimum_supported_wp_version" value="7.0"/>
+	<config name="testVersion" value="8.1-"/>
+
+	<rule ref="WordPress-Extra"/>
+
+	<rule ref="WordPress.WP.Capabilities">
+		<properties>
+			<property name="custom_capabilities" type="array">
+				<element value="manage_woocommerce"/>
+			</property>
+		</properties>
+	</rule>
+
+	<!-- PSR-4 under includes/ and PHPUnit: allow PascalCase class filenames. -->
+	<rule ref="WordPress.Files.FileName">
+		<exclude-pattern>includes/*</exclude-pattern>
+		<exclude-pattern>tests/phpunit/*</exclude-pattern>
+		<exclude-pattern>tests/phpunit/*/*</exclude-pattern>
+		<exclude-pattern>tests/stubs/*</exclude-pattern>
+	</rule>
+
+	<rule ref="Squiz.Commenting.FileComment.Missing">
+		<exclude-pattern>includes/*</exclude-pattern>
+		<exclude-pattern>tests/*</exclude-pattern>
+	</rule>
+	<rule ref="Squiz.Commenting.ClassComment.Missing">
+		<exclude-pattern>includes/*</exclude-pattern>
+		<exclude-pattern>tests/*</exclude-pattern>
+	</rule>
+	<rule ref="Squiz.Commenting.FunctionComment.Missing">
+		<exclude-pattern>includes/*</exclude-pattern>
+		<exclude-pattern>tests/*</exclude-pattern>
+	</rule>
+	<rule ref="Squiz.Commenting.FunctionComment.MissingParamTag">
+		<exclude-pattern>includes/*</exclude-pattern>
+		<exclude-pattern>tests/*</exclude-pattern>
+	</rule>
+	<rule ref="Squiz.Commenting.VariableComment.Missing">
+		<exclude-pattern>includes/*</exclude-pattern>
+		<exclude-pattern>tests/*</exclude-pattern>
+	</rule>
+	<rule ref="Generic.Commenting.DocComment.MissingShort">
+		<exclude-pattern>includes/*</exclude-pattern>
+		<exclude-pattern>tests/*</exclude-pattern>
+	</rule>
+
+	<arg value="s"/>
+	<arg name="extensions" value="php"/>
+	<arg name="colors"/>
+
+	<file>site-visibility-manager.php</file>
+	<file>uninstall.php</file>
+	<file>includes</file>
+	<file>tests</file>
+
+	<exclude-pattern>*/vendor/*</exclude-pattern>
+	<exclude-pattern>*/node_modules/*</exclude-pattern>
+</ruleset>

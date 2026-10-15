@@ -1,0 +1,22 @@
+{
+  "name": "site-visibility-manager",
+  "private": true,
+  "scripts": {
+    "docker:up": "docker compose up -d && bash bin/docker-setup.sh",
+    "docker:stop": "docker compose stop",
+    "docker:clean": "docker compose down -v",
+    "docker:destroy": "docker compose down -v --rmi all",
+    "docker:logs": "docker compose logs -f wordpress",
+    "test:php": "vendor/bin/phpunit --configuration phpunit.xml.dist",
+    "phpcs": "composer run phpcs",
+    "phpcbf": "composer run phpcbf",
+    "create:pot": "mkdir -p languages && wp i18n make-pot . languages/site-visibility-manager-for-woocommerce.pot --domain=site-visibility-manager-for-woocommerce",
+    "build:admin": "wp-scripts build src/admin/index.js --output-path=assets/admin",
+    "start:admin": "wp-scripts start src/admin/index.js --output-path=assets/admin",
+    "build:zip": "bash bin/build-zip.sh",
+    "release:verify": "bash bin/verify-release.sh"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^30.15.0"
+  }
+}

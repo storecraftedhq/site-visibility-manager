@@ -1,0 +1,283 @@
+# Copyright (C) 2026 StoreCrafted
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Site Visibility Manager For WooCommerce 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/site-visibility-manager\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-10-15T19:55:49+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: site-visibility-manager-for-woocommerce\n"
+
+#. Plugin Name of the plugin
+#: site-visibility-manager.php
+msgid "Site Visibility Manager For WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: site-visibility-manager.php
+msgid "https://storecrafted.com"
+msgstr ""
+
+#. Description of the plugin
+#: site-visibility-manager.php
+msgid "Granular public allowlist controls for WooCommerce Coming Soon / Site Visibility."
+msgstr ""
+
+#. Author of the plugin
+#: site-visibility-manager.php
+msgid "StoreCrafted"
+msgstr ""
+
+#: includes/Activator.php:10
+msgid "Site Visibility Manager For WooCommerce requires WooCommerce."
+msgstr ""
+
+#: includes/Activator.php:14
+#: site-visibility-manager.php:50
+msgid "Site Visibility Manager For WooCommerce requires WooCommerce 11.0 or newer."
+msgstr ""
+
+#: includes/Activator.php:23
+msgid "Plugin activation error"
+msgstr ""
+
+#: includes/Admin/SettingsPage.php:26
+#: assets/admin/index.js:1
+#: src/admin/index.js:220
+msgid "Site Visibility Manager"
+msgstr ""
+
+#: includes/Rest/SettingsController.php:77
+msgid "Invalid settings payload."
+msgstr ""
+
+#: includes/Rest/SettingsController.php:120
+msgid "Homepage"
+msgstr ""
+
+#: includes/Rest/SettingsController.php:121
+msgid "Front page of the site."
+msgstr ""
+
+#: includes/Rest/SettingsController.php:125
+msgid "Blog index"
+msgstr ""
+
+#: includes/Rest/SettingsController.php:126
+msgid "Posts page when a static front page is set."
+msgstr ""
+
+#: includes/Rest/SettingsController.php:130
+msgid "Blog posts"
+msgstr ""
+
+#: includes/Rest/SettingsController.php:131
+msgid "Individual published posts."
+msgstr ""
+
+#: includes/Rest/SettingsController.php:135
+msgid "Blog categories & tags"
+msgstr ""
+
+#: includes/Rest/SettingsController.php:136
+msgid "Category and tag archives."
+msgstr ""
+
+#: includes/Rest/SettingsController.php:140
+msgid "Shop"
+msgstr ""
+
+#: includes/Rest/SettingsController.php:141
+msgid "Shop page and product archive."
+msgstr ""
+
+#: includes/Rest/SettingsController.php:145
+msgid "Products"
+msgstr ""
+
+#: includes/Rest/SettingsController.php:146
+msgid "Individual product pages."
+msgstr ""
+
+#: includes/Rest/SettingsController.php:150
+msgid "Product taxonomies"
+msgstr ""
+
+#: includes/Rest/SettingsController.php:151
+msgid "Product category and tag archives."
+msgstr ""
+
+#: includes/Rest/SettingsController.php:155
+msgid "Cart"
+msgstr ""
+
+#: includes/Rest/SettingsController.php:156
+msgid "Cart page and cart endpoints."
+msgstr ""
+
+#: includes/Rest/SettingsController.php:160
+msgid "Checkout"
+msgstr ""
+
+#: includes/Rest/SettingsController.php:161
+msgid "Checkout page and checkout endpoints."
+msgstr ""
+
+#: includes/Rest/SettingsController.php:165
+msgid "My account"
+msgstr ""
+
+#: includes/Rest/SettingsController.php:166
+msgid "My account page and account endpoints."
+msgstr ""
+
+#: assets/admin/index.js:1
+#: src/admin/index.js:142
+msgid "Could not load settings."
+msgstr ""
+
+#: assets/admin/index.js:1
+#: src/admin/index.js:196
+msgid "Loading…"
+msgstr ""
+
+#: assets/admin/index.js:1
+#: src/admin/index.js:223
+msgid "While WooCommerce Coming Soon is on, choose which parts of the site stay public. Design the Coming Soon experience in the Site Editor — this plugin only controls access."
+msgstr ""
+
+#: assets/admin/index.js:1
+#: src/admin/index.js:255
+msgid "WooCommerce Site Visibility:"
+msgstr ""
+
+#: assets/admin/index.js:1
+#: src/admin/index.js:261
+msgid "Coming soon"
+msgstr ""
+
+#: assets/admin/index.js:1
+#: src/admin/index.js:262
+msgid "Live"
+msgstr ""
+
+#: assets/admin/index.js:1
+#: src/admin/index.js:267
+msgid "Store pages only"
+msgstr ""
+
+#: assets/admin/index.js:1
+#: src/admin/index.js:271
+msgid "Entire site"
+msgstr ""
+
+#: assets/admin/index.js:1
+#: src/admin/index.js:276
+msgid "Settings save, but they do not affect the live site until Coming Soon is enabled in Site Visibility."
+msgstr ""
+
+#: assets/admin/index.js:1
+#: src/admin/index.js:284
+msgid "For homepage + blog public with the shop closed, use Coming soon for the entire site (turn off “Apply to store pages only”), then enable sections below."
+msgstr ""
+
+#: assets/admin/index.js:1
+#: src/admin/index.js:295
+msgid "Site Visibility settings"
+msgstr ""
+
+#: assets/admin/index.js:1
+#: src/admin/index.js:305
+msgid "Edit Coming Soon template"
+msgstr ""
+
+#: assets/admin/index.js:1
+#: src/admin/index.js:317
+msgid "Public sections"
+msgstr ""
+
+#: assets/admin/index.js:1
+#: src/admin/index.js:320
+msgid "Cart, checkout, and account each open that WooCommerce page and its endpoints. Product catalog access is only via Shop / Products / Product taxonomies — not the post type list."
+msgstr ""
+
+#: assets/admin/index.js:1
+#: src/admin/index.js:350
+msgid "Public pages"
+msgstr ""
+
+#: assets/admin/index.js:1
+#: src/admin/index.js:353
+msgid "Exact pages only — child pages are not opened automatically."
+msgstr ""
+
+#: assets/admin/index.js:1
+#: src/admin/index.js:362
+msgid "Search pages…"
+msgstr ""
+
+#: assets/admin/index.js:1
+#: src/admin/index.js:371
+msgid "Public posts"
+msgstr ""
+
+#: assets/admin/index.js:1
+#: src/admin/index.js:374
+msgid "Specific posts when “Blog posts” is too broad."
+msgstr ""
+
+#: assets/admin/index.js:1
+#: src/admin/index.js:383
+msgid "Search posts…"
+msgstr ""
+
+#: assets/admin/index.js:1
+#: src/admin/index.js:392
+msgid "Public post types"
+msgstr ""
+
+#: assets/admin/index.js:1
+#: src/admin/index.js:395
+msgid "Enabling a type opens its singular views, archive, and built-in taxonomies. Products are never listed here."
+msgstr ""
+
+#: assets/admin/index.js:1
+#: src/admin/index.js:424
+msgid "Public taxonomies"
+msgstr ""
+
+#: assets/admin/index.js:1
+#: src/admin/index.js:427
+msgid "Additional taxonomy archives to open beyond the section presets."
+msgstr ""
+
+#: assets/admin/index.js:1
+#: src/admin/index.js:458
+msgid "Data"
+msgstr ""
+
+#: assets/admin/index.js:1
+#: src/admin/index.js:462
+msgid "Delete plugin settings on uninstall"
+msgstr ""
+
+#: assets/admin/index.js:1
+#: src/admin/index.js:181
+msgid "Settings saved."
+msgstr ""
+
+#: assets/admin/index.js:1
+#: src/admin/index.js:185
+msgid "Could not save settings."
+msgstr ""
+
+#: assets/admin/index.js:1
+#: src/admin/index.js:485
+msgid "Save changes"
+msgstr ""
